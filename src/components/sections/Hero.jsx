@@ -15,7 +15,7 @@ export default function Hero() {
           className="inline-flex items-center gap-2 px-3 py-1 rounded-full glass text-sm text-foreground/80 mb-8"
         >
           <span className="w-2 h-2 rounded-full bg-green-500 animate-pulse" />
-          Disponible pour de nouvelles opportunités
+          Ancien technicien expert du nucléaire reconverti dans le développement full-stack
         </motion.div>
 
         <motion.h1 
@@ -24,7 +24,7 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.2, ease: [0.22, 1, 0.36, 1] }}
           className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6 text-gradient pb-2"
         >
-          Création d'expériences web<br /> modernes et pertinentes
+          Je développe des applications web modernes, robustes et maintenables.
         </motion.h1>
 
         <motion.p 
@@ -33,7 +33,9 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.3, ease: [0.22, 1, 0.36, 1] }}
           className="text-lg md:text-xl text-foreground/60 max-w-2xl mx-auto mb-10"
         >
-          Développeur Frontend axé sur la conception UX/UI, les interfaces réactives et la concrétisation de projets clients réels avec une précision au pixel près.
+          Après 22 ans en environnement industriel critique,
+je conçois aujourd’hui des applications web performantes
+avec React, Spring Boot et une approche orientée qualité.
         </motion.p>
 
         <motion.div 
