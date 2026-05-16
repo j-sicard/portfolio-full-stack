@@ -1,11 +1,27 @@
 import { Section } from '../ui/Section';
 
 export default function Skills() {
-  const skills = [
-    "React", "Vue.js", "Tailwind CSS", "JavaScript (ES6+)", 
-    "TypeScript", "Design UX/UI", "Mises en page réactives", 
-    "Intégration API", "Git / GitHub", "Framer Motion",
-    "Figma", "Optimisation des performances"
+  const skillCategories = [
+    {
+      title: "Backend",
+      skills: ["Java Spring Boot", "Hibernate", "Node.js", "REST API"]
+    },
+    {
+      title: "Frontend",
+      skills: ["React", "JavaScript", "HTML", "CSS", "Tailwind"]
+    },
+    {
+      title: "Bases de données",
+      skills: ["MySQL", "MongoDB"]
+    },
+    {
+      title: "DevOps & Cloud",
+      skills: ["AWS", "Docker", "Git", "CI/CD"]
+    },
+    {
+      title: "Architecture",
+      skills: ["MVC", "SOLID", "JUnit"]
+    }
   ];
 
   return (
@@ -15,13 +31,20 @@ export default function Skills() {
         <p className="text-foreground/60 text-lg">Les outils et technologies que j'utilise pour donner vie aux idées.</p>
       </div>
 
-      <div className="flex flex-wrap justify-center gap-4 max-w-4xl mx-auto">
-        {skills.map((skill, index) => (
-          <div 
-            key={index}
-            className="px-6 py-3 glass rounded-xl border border-cardBorder font-medium text-foreground/80 hover:text-foreground hover:border-primary/50 hover:bg-primary/5 hover:scale-105 transition-all duration-300 cursor-default"
-          >
-            {skill}
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+        {skillCategories.map((category, idx) => (
+          <div key={idx} className="p-8 glass rounded-2xl border border-cardBorder hover:border-primary/20 transition-colors duration-300">
+            <h3 className="text-xl font-bold mb-6 text-foreground tracking-wide">{category.title}</h3>
+            <div className="flex flex-wrap gap-3">
+              {category.skills.map((skill, index) => (
+                <div 
+                  key={index}
+                  className="px-4 py-2 rounded-lg border border-cardBorder/50 bg-background/30 font-medium text-foreground/80 hover:text-foreground transition-colors duration-300 cursor-default text-sm"
+                >
+                  {skill}
+                </div>
+              ))}
+            </div>
           </div>
         ))}
       </div>

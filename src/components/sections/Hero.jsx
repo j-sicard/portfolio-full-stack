@@ -34,8 +34,8 @@ export default function Hero() {
           className="text-lg md:text-xl text-foreground/60 max-w-2xl mx-auto mb-10"
         >
           Après 22 ans en environnement industriel critique,
-je conçois aujourd’hui des applications web performantes
-avec React, Spring Boot et une approche orientée qualité.
+je développe aujourd’hui des applications web modernes,
+fiables et maintenables avec React, Java et Spring Boot.
         </motion.p>
 
         <motion.div 
