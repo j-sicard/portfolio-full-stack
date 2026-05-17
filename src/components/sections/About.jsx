@@ -6,17 +6,17 @@ export default function About() {
     {
       icon: <Target className="w-6 h-6 text-primary" />,
       title: "Rigueur & Fiabilité",
-      description: "22 ans d’expérience en environnement critique m’ont appris l’importance de la qualité, de la précision et des procédures."
+      description: "22 ans d’expérience en environnement critique m’ont apporté rigueur, fiabilité et exigence dans la conception de solutions techniques.."
     },
     {
       icon: <MonitorSmartphone className="w-6 h-6 text-primary" />,
       title: "Développement Full-Stack",
-      description: "Conception d’applications web modernes avec React, Java Spring Boot, Node.js et outils cloud modernes."
+      description: "Développement d’applications full-stack avec React, Spring Boot, Node.js et technologies cloud AWS."
     },
     {
       icon: <Code2 className="w-6 h-6 text-primary" />,
-      title: "Résolution de problèmes",
-      description: "Habitué aux environnements exigeants, je développe des solutions maintenables, structurées et orientées utilisateur."
+      title: "Connaissance métier",
+      description: "Mon expérience dans le secteur de l’énergie me permet de comprendre les besoins terrain, les contraintes techniques et les attentes clients des environnements industriels exigeants."
     }
   ];
 
@@ -24,10 +24,22 @@ export default function About() {
     <Section id="about">
       <div className="space-y-16">
         <div>
-          <h2 className="text-3xl md:text-5xl font-bold mb-6 tracking-tight">Une approche orientée qualité,<br className="hidden md:block" /><span className="text-foreground/50">maintenabilité et expérience utilisateur.</span></h2>
-          <p className="text-lg text-foreground/70 max-w-2xl leading-relaxed">
-            Je conçois des applications web modernes, performantes et maintenables, avec une approche orientée qualité, expérience utilisateur et résolution de problématiques concrètes.
-          </p>
+          <h2 className="text-3xl md:text-5xl font-bold mb-6 tracking-tight">Une approche orientée robustesse,<br className="hidden md:block" /><span className="text-foreground/50">qualité logicielle et expérience utilisateur.</span></h2>
+          <div className="text-lg text-foreground/70 max-w-2xl leading-relaxed space-y-4">
+            <p>
+              Après plus de 20 ans dans le secteur de l’énergie
+              et des environnements techniques exigeants,
+              je me suis reconverti dans le développement logiciel
+              afin de concevoir des applications web adaptées
+              aux besoins réels du terrain.
+            </p>
+            <p>
+              Mon expérience dans le domaine de l’énergie me permet
+              de comprendre les enjeux métiers, les contraintes techniques,
+              les attentes clients et les exigences de qualité propres
+              aux secteurs industriels et critiques.
+            </p>
+          </div>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
