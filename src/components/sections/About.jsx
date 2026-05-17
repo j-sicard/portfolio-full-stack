@@ -24,9 +24,9 @@ export default function About() {
     <Section id="about">
       <div className="space-y-16">
         <div>
-          <h2 className="text-3xl md:text-5xl font-bold mb-6 tracking-tight">Une approche orientée qualité</h2>
+          <h2 className="text-3xl md:text-5xl font-bold mb-6 tracking-tight">Une approche orientée qualité,<br className="hidden md:block" /><span className="text-foreground/50">maintenabilité et expérience utilisateur.</span></h2>
           <p className="text-lg text-foreground/70 max-w-2xl leading-relaxed">
-            Je suis un développeur Full-Stack dédié à la création d'applications web performantes et visuellement frappantes. Mon travail se définit par une obsession pour le code propre, l'esthétique moderne et la résolution de problèmes réels pour les clients.
+            Je conçois des applications web modernes, performantes et maintenables, avec une approche orientée qualité, expérience utilisateur et résolution de problématiques concrètes.
           </p>
         </div>
 

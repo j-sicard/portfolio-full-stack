@@ -33,9 +33,7 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.3, ease: [0.22, 1, 0.36, 1] }}
           className="text-lg md:text-xl text-foreground/60 max-w-2xl mx-auto mb-10"
         >
-          Après 22 ans en environnement industriel critique,
-je développe aujourd’hui des applications web modernes,
-fiables et maintenables avec React, Java et Spring Boot.
+          Après 22 ans en environnement industriel critique, je développe aujourd’hui des applications web modernes, fiables et maintenables avec React, Java et Spring Boot.
         </motion.p>
 
         <motion.div 
