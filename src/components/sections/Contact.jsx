@@ -8,12 +8,12 @@ export default function Contact() {
       <div className="text-center max-w-2xl mx-auto space-y-8">
         <h2 className="text-4xl md:text-5xl font-bold tracking-tight">Restons en contact</h2>
         <p className="text-xl text-foreground/70 pb-4">
-          Construisons ensemble des expériences web propres, modernes et pertinentes.
+          Concevons ensemble des applications web modernes, robustes et adaptées aux besoins réels des environnements techniques.
         </p>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
           <a 
-            href="mailto:hello@example.com"
+            href="mailto:srdjulien@gmail.com"
             className="flex items-center gap-2 px-8 py-4 bg-foreground text-background font-medium rounded-full hover:scale-105 transition-transform w-full sm:w-auto justify-center"
           >
             <Mail className="w-5 h-5" />
