@@ -97,7 +97,7 @@ export default function Projects() {
       githubUrl: "https://github.com/j-sicard/aikido-reignac-web-site"
     },
     {
-      title: "Écurie Elphé",
+      title: "Écurie Elphe",
       description: "Une expérience narrative élégante et immersive conçue pour un authentique centre équestre, mettant en valeur leurs installations et leur profond respect de la nature.",
       highlights: [
         "Amélioration visuelle premium et flux narratif",
