@@ -3,6 +3,7 @@ import { ExternalLink } from 'lucide-react';
 import { GithubIcon } from '../ui/Icons';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { useRef } from 'react';
+import aikidoImage from '../../assets/aikido-screen.png';
 
 const ProjectCard = ({ project, index }) => {
   const ref = useRef(null);
@@ -28,11 +29,16 @@ const ProjectCard = ({ project, index }) => {
         <div className="absolute -inset-1 bg-gradient-to-r from-primary to-accent opacity-20 group-hover:opacity-40 blur-xl transition-opacity duration-500 rounded-3xl"></div>
         <div className="relative aspect-[16/10] bg-cardBorder rounded-3xl overflow-hidden glass p-2">
           {/* Desktop Mockup Area - Using generic styling to wait for actual images if needed later */}
-          <div className="w-full h-full bg-background rounded-2xl overflow-hidden border border-cardBorder relative">
-             <div className="absolute inset-0 flex items-center justify-center text-foreground/20 text-xl font-medium tracking-widest uppercase">
-                Maquette {project.title}
-             </div>
-             {/* If real images exist, an img tag would go here */}
+          <div className="w-full h-full bg-background rounded-2xl overflow-hidden border border-cardBorder relative flex items-center justify-center">
+            {project.image ? (
+              <img
+                src={project.image}
+                alt={project.title}
+                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+              />
+            ) : (
+              <div className="w-full h-full bg-cardBorder/20"></div>
+            )}
           </div>
         </div>
       </div>
@@ -93,7 +99,8 @@ export default function Projects() {
         "Navigation simplifiée pour les horaires de cours et les contacts"
       ],
       tech: ["React", "CSS Modules", "Figma", "Design Réactif"],
-      liveUrl: "#",
+      image: aikidoImage,
+      liveUrl: "https://www.reignac-aikido.fr/",
       githubUrl: "https://github.com/j-sicard/aikido-reignac-web-site"
     },
     {
@@ -105,7 +112,7 @@ export default function Projects() {
         "Amélioration de la structure du contenu pour les activités et l'élevage"
       ],
       tech: ["React", "Vite", "Tailwind CSS", "Framer Motion"],
-      liveUrl: "#",
+      liveUrl: "https://d13rg1v02wmzjr.cloudfront.net/#home",
       githubUrl: "https://github.com/j-sicard/ecurie_elevage_d_elphe_vue"
     }
   ];

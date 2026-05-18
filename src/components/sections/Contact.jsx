@@ -13,14 +13,14 @@ export default function Contact() {
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
           <a 
-            href="mailto:srdjulien@gmail.com"
+            href="mailto:srdjulien@gmail.com?subject=Prise de contact depuis le portfolio"
             className="flex items-center gap-2 px-8 py-4 bg-foreground text-background font-medium rounded-full hover:scale-105 transition-transform w-full sm:w-auto justify-center"
           >
             <Mail className="w-5 h-5" />
             Me contacter
           </a>
           <a 
-            href="#"
+            href="/CV-Sicard-Julien.pdf"
             className="flex items-center gap-2 px-8 py-4 glass border border-cardBorder rounded-full hover:bg-cardBorder transition-colors w-full sm:w-auto justify-center"
           >
             <Download className="w-5 h-5" />
@@ -40,7 +40,7 @@ export default function Contact() {
         </div>
 
         <p className="text-sm text-foreground/40 pt-16">
-          © {new Date().getFullYear()} Julien Sicard - Développeur Frontend. Conçu & développé avec passion.
+          © {new Date().getFullYear()} Julien Sicard — Développeur Full-Stack Java / React
         </p>
       </div>
     </Section>
