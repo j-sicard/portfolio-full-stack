@@ -91,14 +91,14 @@ const ProjectCard = ({ project, index }) => {
 export default function Projects() {
   const projects = [
     {
-      title: "Club d'Aïkido",
-      description: "Un site web moderne et minimaliste conçu pour un vrai club d'Aïkido, reflétant l'héritage japonais de la discipline à travers une expérience utilisateur structurée et épurée.",
+      title: "Reignac Aïkido",
+      description: "Conception et développement d’un site web moderne pour un club d’Aïkido, avec une approche centrée sur la lisibilité, l’accessibilité des informations et l’expérience utilisateur sur mobile.",
       highlights: [
-        "Modernisation de l'identité visuelle et amélioration de la lisibilité",
-        "Optimisation mobile-first pour un accès facile en déplacement",
-        "Navigation simplifiée pour les horaires de cours et les contacts"
+        "Refonte moderne et amélioration de l’accessibilité des contenus",
+        "Optimisation responsive pour mobile et consultation rapide des informations",
+        "Structure claire pour les horaires, contacts et informations du club"
       ],
-      tech: ["React", "CSS Modules", "Figma", "Design Réactif"],
+      tech: ["React", "Vite", "Responsive Design", "UI/UX"],
       image: aikidoImage,
       liveUrl: "https://www.reignac-aikido.fr/",
       githubUrl: "https://github.com/j-sicard/aikido-reignac-web-site"
@@ -120,8 +120,8 @@ export default function Projects() {
   return (
     <Section id="projects" className="bg-background relative">
       <div className="mb-20 md:mb-32">
-        <h2 className="text-4xl md:text-5xl font-bold tracking-tight mb-4">Projets Phares</h2>
-        <p className="text-xl text-foreground/50 max-w-2xl">Études de cas premium de plateformes clients réelles que j'ai conçues et développées.</p>
+        <h2 className="text-4xl md:text-5xl font-bold tracking-tight mb-4">Projet Réel</h2>
+        <p className="text-xl text-foreground/50 max-w-2xl">Applications web conçues pour répondre à des besoins réels, avec une approche orientée utilisateur, performance et maintenabilité.</p>
       </div>
 
       <div className="space-y-10">
