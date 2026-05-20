@@ -19,11 +19,11 @@ function App() {
 
       {/* Floating Nav */}
       <header className="fixed top-6 left-1/2 -translate-x-1/2 z-40">
-        <nav className="glass px-6 py-3 rounded-full border border-cardBorder shadow-2xl flex gap-6 text-sm font-medium">
-          <a href="#about" className="hover:text-primary transition-colors">À propos</a>
-          <a href="#projects" className="hover:text-primary transition-colors">Projets</a>
-          <a href="#skills" className="hover:text-primary hidden sm:block transition-colors">Compétences</a>
-          <a href="#contact" className="hover:text-primary transition-colors">Contact</a>
+        <nav className="glass px-4 sm:px-6 py-3 rounded-full border border-cardBorder shadow-2xl flex items-center gap-3 sm:gap-6 text-[13px] sm:text-sm font-medium max-w-[95vw] overflow-x-auto">
+          <a href="#about" className="hover:text-primary transition-colors whitespace-nowrap">À propos</a>
+          <a href="#projects" className="hover:text-primary transition-colors whitespace-nowrap">Projets</a>
+          <a href="#skills" className="hover:text-primary transition-colors whitespace-nowrap">Compétences</a>
+          <a href="#contact" className="hover:text-primary transition-colors whitespace-nowrap">Contact</a>
         </nav>
       </header>
 
