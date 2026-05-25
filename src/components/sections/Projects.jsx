@@ -114,7 +114,7 @@ export default function Projects() {
       ],
       tech: ["React", "Vite", "TailwindCSS", "Animations UI"],
       image: elpheScreen, 
-      liveUrl: "https://d13rg1v02wmzjr.cloudfront.net/#home",
+      liveUrl: "https://ecurie-elevage-d-elphe-vue.vercel.app/",
       githubUrl: "https://github.com/j-sicard/ecurie_elevage_d_elphe_vue"
     }
   ];
