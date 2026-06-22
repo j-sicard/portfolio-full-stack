@@ -112,7 +112,7 @@ export default function Projects() {
         "Navigation immersive avec animations fluides et expérience responsive",
         "Organisation claire des contenus pour améliorer l’expérience utilisateur"
       ],
-      tech: ["React", "Vite", "TailwindCSS", "Animations UI"],
+      tech: ["Nuxt 3", "Vue.js 3", "TailwindCSS", "Lucide Icons"],
       image: elpheScreen, 
       liveUrl: "https://ecurie-elevage-d-elphe-vue.vercel.app/",
       githubUrl: "https://github.com/j-sicard/ecurie_elevage_d_elphe_vue"
