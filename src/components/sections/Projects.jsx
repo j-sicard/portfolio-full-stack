@@ -114,7 +114,7 @@ export default function Projects() {
       ],
       tech: ["Nuxt 3", "Vue.js 3", "TailwindCSS", "Lucide Icons"],
       image: elpheScreen, 
-      liveUrl: "https://ecurie-elevage-d-elphe-vue.vercel.app/",
+      liveUrl: "https://www.ecurie-elevagedelphe.fr/",
       githubUrl: "https://github.com/j-sicard/ecurie_elevage_d_elphe_vue"
     }
   ];
